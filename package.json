@@ -2,7 +2,7 @@
   "name": "express-es6",
   "version": "1.0.0",
   "description": "Setup for Express using ES6+ features!",
-  "repository": "https://github.com/oieduardorabelo/express-es6",
+  "repository": "https://github.com/oieduardorabelo/express-es6.git",
   "main": "webpack.config.js",
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com>",
   "license": "MIT",
