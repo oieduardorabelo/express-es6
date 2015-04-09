@@ -1,0 +1,19 @@
+{
+  "name": "node-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "babel-core": "^5.0.10",
+    "babel-loader": "^5.0.0",
+    "jsonp": "^0.2.0",
+    "source-map-support": "^0.2.10",
+    "webpack": "^1.8.1"
+  }
+}
