@@ -1,13 +1,11 @@
 {
-  "name": "node-next",
+  "name": "express-es6",
   "version": "1.0.0",
-  "description": "",
+  "description": "Setup for Express using ES6+ features!",
+  "repository": "https://github.com/oieduardorabelo/express-es6",
   "main": "webpack.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Eduardo Rabelo <oieduardorabelo@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.12.3",
     "babel-core": "^5.0.10",
