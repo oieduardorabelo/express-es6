@@ -25,6 +25,10 @@ cd express-es6
 npm install
 ```
 
+### Development
+
+##### 1) Long version
+
 After this process, you just need to set [Webpack](http://webpack.github.io/) to watch yours files with a nice and easy command:
 
 ```
@@ -40,6 +44,16 @@ Now, you can star your app using [Node.js](https://nodejs.org/):
 ```
 node _dist/app.output.js
 ```
+
+##### 2) Short version
+
+If you have [Nodemon](https://github.com/remy/nodemon) installed in your machine, just run:
+
+```
+npm run dev
+```
+
+The previous command will run the **webpack** watcher with **nodemon** on your `_dist/` folder
 
 ## TL;DR
 Copy the repository, install the dependencies via [npm](https://www.npmjs.com/), start [webpack](http://webpack.github.io/) with the watch command and run your server with `node _dist/app.output.js`
