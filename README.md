@@ -27,27 +27,7 @@ npm install
 
 ### Development
 
-##### 1) Long version
-
-After this process, you just need to set [Webpack](http://webpack.github.io/) to watch yours files with a nice and easy command:
-
-```
-webpack --watch
-```
-
-***Just check the [Webpack documentation](http://webpack.github.io/docs/) for more infos and flags***
-
-The previous command with *watch* your `es6/app.js` and generate the compiled file `_dist/app.output.js`
-
-Now, you can star your app using [Node.js](https://nodejs.org/):
-
-```
-node _dist/app.output.js
-```
-
-##### 2) Short version
-
-If you have [Nodemon](https://github.com/remy/nodemon) installed in your machine, just run:
+After install the dependencies, you can run:
 
 ```
 npm start
@@ -55,8 +35,16 @@ npm start
 
 The previous command will run the **webpack** watcher with **nodemon** on your `_dist/` folder
 
+### Lint your code
+
+To run the [Eslint](http://eslint.org/) in your code, you can run:
+
+```
+npm test
+```
+
 ## TL;DR
-Copy the repository, install the dependencies via [npm](https://www.npmjs.com/), start [webpack](http://webpack.github.io/) with the watch command and run your server with `node _dist/app.output.js`
+Copy the repository, install the dependencies via [npm](https://www.npmjs.com/), and run `npm start`
 
 ## License
 
