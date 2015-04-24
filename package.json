@@ -7,7 +7,7 @@
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack.js --watch & nodemon _dist/app.output.js",
+    "dev": "webpack --watch & nodemon _dist/app.output.js",
     "test": "eslint ./es6/"
   },
   "dependencies": {

@@ -10,13 +10,8 @@ router.use(function timeLog(req, res, next) {
 })
 
 router.get('/', function(req, res) {
-  res.send('Birds home page')
+  res.send('Home page')
 })
 
-router.get('/about', function(req, res) {
-  res.send('About birds')
-})
 
-export default {
-  home: router
-}
+export default router

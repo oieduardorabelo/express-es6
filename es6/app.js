@@ -1,7 +1,7 @@
 'use strict'
 
 import express from 'express'
-import Routes from './Routes'
+import Routes from './routes'
 
 const app = express()
 const server = app.listen(3000, ()=> {
@@ -11,5 +11,3 @@ const server = app.listen(3000, ()=> {
 })
 
 app.use('/', Routes.home)
-// app.use('/about', Routes.about)
-// app.use('/articles', Routes.articles)
