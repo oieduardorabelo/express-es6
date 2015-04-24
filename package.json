@@ -7,7 +7,7 @@
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --watch & nodemon _dist/app.output.js",
+    "start": "./node_modules/.bin/webpack --watch & ./node_modules/.bin/nodemon _dist/app.output.js",
     "test": "eslint ./es6/"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
   "devDependencies": {
     "babel-core": "^5.0.10",
     "babel-loader": "^5.0.0",
+    "nodemon": "^1.3.7",
     "source-map-support": "^0.2.10",
     "webpack": "^1.8.1"
   }
