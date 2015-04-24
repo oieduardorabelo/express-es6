@@ -50,7 +50,7 @@ node _dist/app.output.js
 If you have [Nodemon](https://github.com/remy/nodemon) installed in your machine, just run:
 
 ```
-npm run dev
+npm start
 ```
 
 The previous command will run the **webpack** watcher with **nodemon** on your `_dist/` folder
