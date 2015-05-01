@@ -1,7 +1,7 @@
 'use strict'
 
 import express from 'express'
-import Routes from './routes'
+import routes from './routes'
 
 const app = express()
 const server = app.listen(3000, ()=> {
@@ -10,4 +10,4 @@ const server = app.listen(3000, ()=> {
   console.log('App listening at http://%s:%s', host, port)
 })
 
-app.use('/', Routes.home)
+routes(app)
