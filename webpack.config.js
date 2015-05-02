@@ -19,7 +19,7 @@ var exportDefault = {
   },
   target: 'node',
   output: {
-    path: path.join(__dirname, '_dist/'),
+    path: path.join(__dirname, 'public/'),
     publicPath: 'dist/js/',
     filename: 'app.output.js'
   },
