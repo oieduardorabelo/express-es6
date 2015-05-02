@@ -11,3 +11,6 @@ const server = app.listen(3000, ()=> {
 })
 
 routes(app)
+
+app.use('views', './views')
+app.use('view engine', 'ejs')
