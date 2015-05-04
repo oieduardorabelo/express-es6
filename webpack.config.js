@@ -5,6 +5,8 @@ var path = require('path')
 var fs = require('fs')
 var nodeModules = {}
 
+// References: Why not to bundle node_modules in Webpack?
+// http://jlongster.com/Backend-Apps-with-Webpack--Part-I
 fs.readdirSync('node_modules')
   .filter(function(dir) {
     return ['.bin'].indexOf(dir) === -1
