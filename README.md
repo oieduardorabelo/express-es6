@@ -43,9 +43,6 @@ To run the [Eslint](http://eslint.org/) in your code, you can run:
 npm test
 ```
 
-## TL;DR
-Copy the repository, install the dependencies via [npm](https://www.npmjs.com/), and run `npm start`
-
 ## License
 
 MIT: [http://eduardorabelo.mit-license.org/](http://eduardorabelo.mit-license.org/)
