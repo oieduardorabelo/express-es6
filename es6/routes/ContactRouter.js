@@ -15,7 +15,7 @@ router.get('/', function(req, res) {
 
 router.get('/:id', function(req, res) {
   if (req.params.id === '42') {
-    console.log(req.params.id);
+    console.log(req.params.id)
     return res.send('The answer to life, the universe and everything!')
   }
   res.send('Contact page')
